@@ -1,0 +1,12 @@
+TABELA: `admusers` 
+(`id_adm`, `nome`, `sobrenome`, `matricula`, `senha`)
+(1, 'Admin', 'Admin', '12345', '12345')
+(3, 'Darcio', 'Miranda', '8888', '8888')
+
+
+
+TABELA: `users` 
+(`id_user`, `nome`, `sobrenome`, `email`, `senha`)
+(2, 'Darcio', 'Miranda', '289108@mesquita.com.br', '12345')
+(5, 'Maria', 'Joaquina', 'maria@gmail.com', '0000')
+(6, 'Pedro', 'da Silva', 'pedrodasilva@gmail.com', 'pedro')

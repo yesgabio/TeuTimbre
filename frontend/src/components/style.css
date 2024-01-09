@@ -1,0 +1,176 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo a {
+    width: 30%;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+.conteudo {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carrossel {
+    width: 50%;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.social a {
+    color: black;
+}
+
+.formcad {
+    margin: 20px;
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.formcad h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+.formcad input{
+    margin-top: 5px;
+}
+
+.formcad .checkcadastrar {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.formcad .form-check {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.formcad a {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.formcad button {
+    margin-top: 5px;
+}
+
+.login {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gerenciamento th,
+.gerenciamento td {
+    text-align: center;
+}
+
+.gerenciamento .tdimg {
+    width: 10%;
+}
+
+.gerenciamento .tdimg img {
+    width: 100%;
+}
+
+.gerenciamento i {
+    cursor: pointer;
+}
+
+.formaltera {
+    width: 700px;
+}
+
+.catalogo {
+    margin: 20px;
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.catalogo h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.flexcatalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.card {
+    width: 15%;
+    margin: 5px;
+    text-align: center;
+}
+
+.imgcard {
+    min-width: 15px;
+}
+
+.catalogo .flexcatalogo .card i {
+    cursor: pointer;
+}
+
+/* estilos aplicados para responsividade - telas menores */
+@media screen and (max-width: 768px){
+    .logo img {
+        width: 70%;
+    }
+
+    .carrossel {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .catalogo .flexcatalogo .card {
+        min-width: 70%;
+    }
+}
