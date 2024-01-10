@@ -1,4 +1,4 @@
-## Projeto de Orientação Full Satck
+## Projeto de Orientação Full Stack
 
 ## Conclusão de curso Técnico em Informática
 * Desenvolver uma solução web full stack
